@@ -5,14 +5,14 @@
     --primary-color: #564138;
     --secondary-color: #7ac4e3;
     --tertiary-color: #F6F5AE;
-    --accent-1-color: #F5F749;
-    --accent-2-color: #F24236;
+    --accent1-color: #F5F749;
+    --accent2-color: #F24236;
 
     --heading-font: '______', lato;
     --paragraph-font: '______', 'work sans';
 
-    --nav-background-color: var(--secondary-color);
-    --nav-link-color: var(--primary-color);
+    --nav-background-color: #7ac4e3;
+    --nav-link-color: #564138;
     --nav-hover-link-color: #000000;
     --nav-hover-background-color: #3c90b4;
 }
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 header {
     padding: 15px;
-    background-color: var(--accent-1-color);
+    background-color: var(--accent1-color);
 }
 p {
     padding: 20px;
@@ -72,12 +72,4 @@ nav a:hover {
     font-family: var(--heading-font);
     background-color: var(--secondary-color);
     color: var(--primary-color);
-}
-
-.color-palette-square {
-    display: inline-block;
-    width: 2rem;
-    height: 1rem;
-    background-color: var(--color);
-    margin-right: 0.5rem;
 }
