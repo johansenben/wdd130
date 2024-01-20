@@ -75,5 +75,5 @@ nav a:hover {
 }
 
 .color-palette {
-    display: flex;
+    display: grid;
 }
