@@ -69,6 +69,7 @@ nav a:hover {
 }
 .callout-font {
     font-family: var(--heading-font);
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
     color: var(--primary-color);
+    border: 3px solid var(--primary-color);
 }
