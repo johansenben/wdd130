@@ -73,7 +73,3 @@ nav a:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
-
-.color-palette {
-    display: grid;
-}
