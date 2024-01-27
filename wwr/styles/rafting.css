@@ -103,3 +103,8 @@ article > img {
     width: 100%;
     height: auto;
 }
+
+.media-logo {
+    width: 1rem;
+    height: auto;
+}
