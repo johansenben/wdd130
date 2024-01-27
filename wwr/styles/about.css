@@ -41,13 +41,13 @@ header nav {
     display: flex;
     gap: 1rem;
 }
-.header-nav a {
+header nav a {
     text-decoration: none;
     display: block;
     color: var(--nav-link-color);
     padding: 0.5rem;
 }
-.header-nav a:hover {
+header nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
