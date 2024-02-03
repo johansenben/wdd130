@@ -118,8 +118,20 @@ article > img {
 
 .history {
     background-color: var(--accent1-color);
-    padding-block: 1rem;
+    padding-inline: 12rem;
+    padding-block: 2rem;
     margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+.history p {
+    margin-bottom: 4rem;
+    font-weight: 550; /* makes it easier to read */
+}
+.history img {
+    max-width: 200px;
+    height: auto;
+    float: right;
+    margin-left: 2rem;
 }
 .adventure {
     background-color: var(--tertiary-color);
