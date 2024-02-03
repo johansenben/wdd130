@@ -29,9 +29,13 @@ p {
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: space-around;
+    box-sizing: border-box;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    background-color: var(--secondary-color);
     margin-bottom: 1rem;
 }
 header img {
@@ -40,6 +44,7 @@ header img {
 }
 header nav {
     display: flex;
+    justify-content: end;
     gap: 1rem;
 }
 header nav a {
@@ -47,6 +52,7 @@ header nav a {
     display: block;
     color: var(--nav-link-color);
     padding: 0.5rem;
+    font-weight: 600;
 }
 header nav a:hover {
     color: var(--nav-hover-link-color);
@@ -58,8 +64,11 @@ nav a:link, nav a:visited {
 footer {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    gap: 2rem;
+    background-image: linear-gradient(90deg, var(--secondary-color) 70%, #c1e6f5); /* make background lighter closer to the right side for media-logos to be more visible*/
+}
+footer p {
+    margin-left: auto;
+    margin-right: auto;
 }
 footer a {
     text-decoration: none;
@@ -74,6 +83,9 @@ h1 {
     text-align: center;
     box-sizing: border-box;
     background-image: linear-gradient(90deg, #aaa3, #eee9);
+}
+h2{
+    text-align: center;
 }
 article {
     position: absolute;
@@ -94,9 +106,9 @@ article > img {
 }
 .hero {
     position: relative;
-    
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 .hero img {
     display: block;
@@ -104,7 +116,40 @@ article > img {
     height: auto;
 }
 
+.history {
+    background-color: var(--accent1-color);
+    padding-block: 1rem;
+    margin-bottom: 1rem;
+}
+.adventure {
+    background-color: var(--tertiary-color);
+    padding-block: 1rem;
+    margin-bottom: 1rem;
+}
+.adventure div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.adventure figure {
+    margin: 0;
+    text-align: center;
+}
+.adventure figure img {
+    max-height: 100px;/* all images will be the same height */
+    overflow: hidden;
+    border: 1px solid #0007;
+}
+.adventure img {
+    width: 150px;
+    height: auto;
+}
+
+.media-links {
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 1rem;
+}
 .media-logo {
-    width: 1rem;
+    width: 2rem;
     height: auto;
 }
