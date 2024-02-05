@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Quiz</title>
+        <meta name="description" content="Form Quiz">
+        <meta name="author" content="Benjamin Johansen">
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <main>
+            <h1>Quiz Form | Benjamin Johansen | WDD 130</h1>
+            <form>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-element">
+                        <label for="q1">1.What would 'X' look like if it was surrounded in an HTML comment?</label>
+                        <input type="text" name="q1" id="q1">
+                    </div>
+                    <div class="form-element">
+                        <label for="q2">What does a rule look like with a selector of 'div' and a property of 'width: 100px'?</label>
+                        <textarea name="q2" id="q2" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-element">
+                        <label for="q3">What does CSS mean?</label>
+                        <select name="q3" id="q3">
+                            <option value="" selected disabled hidden>Select an Option</option> <!--default (can't be selected)-->
+                            <option value="cascading-style-sheets">Cascading Style Sheets</option>
+                            <option value="confusing-style-system">Confusing Style System</option>
+                            <option value="crazy-silly-styles">Crazy Silly Styles</option>
+                        </select>
+                    </div>
+                    <div class="form-element">
+                        <label for="q4">How many pixels is the default value of 1rem?</label>
+                        <input type="number" name="q4" id="q4">
+                    </div>
+                </fieldset>
+                <button type="submit">Submit Quiz</button>
+            </form>
+        </main>
+    </body>
+</html>
