@@ -1,0 +1,6 @@
+input[type=text] {
+    padding: 1rem;
+}
+input[type=radio] {
+    size: 4rem;
+}
