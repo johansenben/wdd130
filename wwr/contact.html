@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Benjamin Johansen</title>
+    <meta name="description" content="Contact Us page for white water rafting project">
+    <meta name="author" content="Benjamin Johansen">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="contact-h1">River Riders Rafting</h1>
+        <section class="information">
+            <h2>Our Information</h2>
+            <div>
+                <div class="info-element">
+                    <h3>Adress:</h3>
+                    <p>1234 2nd Street North</p>
+                </div>
+                <div class="info-element">
+                    <h3>Phone Number:</h3>
+                    <p>(000) 000 - 0000</p>
+                </div>
+                <div class="info-element">
+                    <h3>Email:</h3>
+                    <p>email@gmail.com</p>
+                </div>
+                <div class="info-element info-map">
+                    <h3 hidden>Map</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6214.525386759141!2d-113.22674668552432!3d49.08880544901349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1707262944146!5m2!1sen!2sca" 
+                        allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer"
+                    ></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="employee-images">
+            <div class="employee-img-element">
+                <img src="images/ceo-profile.webp" alt="CEO Profile Image" class="employee-img">
+                <p class="employee-title">CEO</p>
+            </div>
+            <div class="employee-img-element">
+                <img src="images/cfo-profile.jpg" alt="CFO Profile Image" class="employee-img">
+                <p class="employee-title">CFO</p>
+            </div>
+            <div class="employee-img-element">
+                <img src="images/marketing-strategist-profile.jpg" alt="Marketing Strategist Profile Image" class="employee-img">
+                <p class="employee-title">Marketing Strategist</p>
+            </div>
+        </section>
+        <section class="user-form">
+            <h2>Contact Us</h2>
+            <form>
+                <fieldset class="form-info">
+                    <legend>Your Information</legend>
+                    <div class="form-element">
+                        <label for="form-name">Name: </label>
+                        <input type="text" name="form-name" id="form-name" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="form-email">Email: </label>
+                        <input type="email" name="form-email" id="form-email" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="form-phone">Phone Number: </label>
+                        <input type="text" name="form-phone" id="form-phone" required>
+                    </div>
+                </fieldset>
+                <fieldset class="form-message-block">
+                    <legend>Questions/Message</legend>
+                    <div class="form-element">
+                        <h3>Purpose of Message: </h3>
+                        <input type="radio" name="form-purpose" id="form-purpose-general" required>
+                        <label for="form-purpose-general">General Inquiry</label>
+                        <br>
+                        <input type="radio" name="form-purpose" id="form-purpose-reservation">
+                        <label for="form-purpose-reservation">Reservation Question</label>
+                        <br>
+                        <input type="radio" name="form-purpose" id="form-purpose-website">
+                        <label for="form-purpose-website">Website Sugestion</label>
+                    </div>
+                    <div class="form-element">
+                        <label for="form-message">Message: </label>
+                        <br>
+                        <textarea name="form-message" id="form-message" cols="50" rows="3" required></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Optional</legend>
+                    <div class="form-element">
+                        <input type="checkbox" name="form-subscribe" id="form-subscribe">
+                        <label for="form-subscribe">Subscribe to Monthly NewsLetter</label>
+                    </div>
+                </fieldset>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 | River Riders Rafting | Benjamin Johansen</p>
+        <nav class="media-links">
+            <a href="https://facebook.com"><img class="media-logo" src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://twitter.com"><img class="media-logo" src="images/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://instagram.com"><img class="media-logo" src="images/instagram-icon.png" alt="Instagram"></a>
+            <a href="images/contact-us-wireframe.png" class="contact-us-wireframe-link">Wireframe</a>
+        </nav>
+    </footer>
+</body>
+</html>
