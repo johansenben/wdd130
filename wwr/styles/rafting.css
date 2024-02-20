@@ -56,8 +56,8 @@ p {
     font-size: 4rem;
     font-weight: 700;
     font-family: var(--heading-font);
-    color: var(--accent2-color);
-    text-shadow: 2px 2px 6px #000;
+    color: var(--primary-color);
+    text-shadow: 2px 2px 8px var(--accent2-color);
     user-select: none;
 }
 .call-to-action h3 {
