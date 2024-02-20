@@ -5,7 +5,7 @@
     --secondary-color: #7ac4e3;
     --tertiary-color: #F6F5AE;
     --accent1-color: #F5F749;
-    --accent2-color: #f38642; /* #F24236 */
+    --accent2-color: #ff9b5c; /* #F24236 */
 
     --heading-font: lato, serif;
     --paragraph-font: 'work sans', serif;
@@ -74,6 +74,7 @@ p {
     font-weight: 700;
     text-align: center;
     width: fit-content;
+    color: var(--primary-color);
 }
 .call-to-action a:hover {
     transform: scale(1.1);
